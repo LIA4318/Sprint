@@ -1,0 +1,8 @@
+@Controller
+public class ApiController {
+    @UrlMapping(url = "/api/ping", method = HttpMethode.GET)
+    @Json
+    public String ping() {
+        return "{\"status\":\"ok\",\"count\":2}";
+    }
+}
