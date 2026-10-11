@@ -1,0 +1,18 @@
+
+# macOS
+.DS_Store
+
+# Builds / archives
+*.war
+*.jar
+*.zip
+*.zip.txt
+
+# Fichiers d'explication à ne pas versionner
+sprint*/Sprint*-explication.md
+sprint*/explication.md
+sprint*/*explication*.md
+
+# Fichiers d'explication (à ne pas versionner)
+sprint*/Sprint*-explication.md
+sprint*/*explication*.md
